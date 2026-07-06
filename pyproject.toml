@@ -13,15 +13,15 @@ authors = [
   { name = "Qualcomm Innovation Center, Inc." },
 ]
 keywords = ["qualcomm", "pilot", "hello"]
+
 classifiers = [
-  "License :: OSI Approved :: BSD Software License",
-  "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3.9",
-  "Programming Language :: Python :: 3.10",
-  "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: 3.12",
-  "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
 ]
+
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
